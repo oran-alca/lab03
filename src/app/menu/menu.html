@@ -1,0 +1,12 @@
+<aside class="menu">
+  <p class="menu-label">General</p>
+  <ul class="menu-list" style="margin-inline-start: 0rem;">
+    @for (item of [
+    { title: 'Dashboard', link: '/dashboard' },
+    { title: 'Products', link: '/products' },
+    { title: 'Profile', link: '/profile' },
+    ]; track item.title) {
+    <a [routerLink]="item.link" routerLinkActive="is-active">{{ item.title }}</a>
+    }
+  </ul>
+</aside>

@@ -28,6 +28,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/routerlink/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/routerlink/tsconfig.spec.json"
     }
   ]
 }
